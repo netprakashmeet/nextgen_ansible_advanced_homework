@@ -1,4 +1,5 @@
-- hosts: tag_AnsibleGroup_bastions
+#- hosts: tag_AnsibleGroup_bastions
+- hosts: bastion.bf86.example.opentlc.com
   gather_facts: true
   become: true
   tasks:
