@@ -1,6 +1,6 @@
 #- hosts: tag_AnsibleGroup_bastions
 - hosts: localhost 
-  gather_facts: true
+  gather_facts: no 
   become: true
   tasks:
   - name: Install required packages 
