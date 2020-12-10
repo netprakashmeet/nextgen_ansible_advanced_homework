@@ -11,7 +11,7 @@
 - name: enable repos
   template:
     src: repos_template.j2
-    dest: /etc/yum.repos.d/open_three-tier-app.repo
+    dest: /etc/yum.repos.d/internal.repo
     mode: 0644
 
 #- name: setup hostname
