@@ -6,7 +6,8 @@
   - name: Install required packages 
     yum: 
      name: "{{item}}"
-     state: latest 
+     state: latest
+     use_backend: yum 
     loop: 
       - python 
       - python-pip 
