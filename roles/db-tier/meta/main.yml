@@ -1,6 +1,7 @@
 ---
 dependencies: []
 
+# This role will deploy the Database on the provisioned enviornment
 galaxy_info:
   author: opensource
   description: PostgreSQL server for Linux.
